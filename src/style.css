@@ -1,7 +1,23 @@
+body {
+  background: url(https://img.freepik.com/premium-photo/watercolor-wallpaper-gradient-tint-background_687553-7917.jpg)
+    repeat;
+  border: none;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  opacity: 0.6;
+}
+
 h1 {
   font-family: "Amatic SC", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-align: center;
   font-size: larger;
+  line-height: 1.5;
+  color: ;
 }
