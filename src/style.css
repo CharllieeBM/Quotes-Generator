@@ -1,7 +1,7 @@
 body {
   background: url("https://img.freepik.com/premium-photo/watercolor-wallpaper-gradient-tint-background_687553-7917.jpg");
   background-repeat: no-repeat;
-  border: none;
+  background-size: cover;
 }
 
 div.transbox {
@@ -20,5 +20,5 @@ h1 {
   text-align: center;
   font-size: 40px;
   line-height: 1.5;
-  color: ;
+  color: black;
 }
