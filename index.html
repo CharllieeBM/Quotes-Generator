@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 
   <link rel="stylesheet" href="src/style.css">
 
@@ -21,18 +23,12 @@
       <h1>AI Parenting Quotes Generator</h1>
     </header>
 
-    <form>
+    <form id="quote-generator">
       <input type="text" placeholder="What kind of parenting quote would you like to read? :)" autofocus required
         autocomplete="off" />
       <input type="submit" value="Surprise Me!" />
     </form>
-    <div class="words" id="quote">
-      The quote will go here..
-      <br />
-      The quote will go here..
-      <br />
-
-    </div>
+    <div class="words" id="quote"> </div>
 
     <footer>
       This AI project was coded by <strong><a href="https://github.com/CharllieeBM/" target="_blank">Charllotte
