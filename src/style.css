@@ -5,13 +5,14 @@ body {
 }
 
 div.transbox {
-  margin: 30px auto;
+  margin: 120px auto;
   max-width: 600px;
-  padding: 10px 10px;
+  padding: 40px 20px;
   background-color: #fef8fc;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   opacity: 0.6;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1 {
@@ -22,4 +23,23 @@ h1 {
   font-size: 55px;
   line-height: 1;
   color: black;
+}
+
+input[type="text"] {
+  width: 70%;
+  border: 2px solid #f195ba;
+  border-radius: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+input[type="submit"] {
+  background-color: #f195ba;
+  border: 2px solid #fef8fc;
+  color: #fef8fc;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 12px 15px;
+  font-size: 15px;
 }
