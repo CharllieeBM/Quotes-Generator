@@ -10,7 +10,7 @@ div.transbox {
   padding: 40px 20px;
   background-color: #fef8fc;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   opacity: 0.6;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -23,6 +23,12 @@ h1 {
   font-size: 55px;
   line-height: 1;
   color: black;
+  margin: 10px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
 }
 
 input[type="text"] {
@@ -43,3 +49,25 @@ input[type="submit"] {
   padding: 12px 15px;
   font-size: 15px;
 }
+
+footer{
+  text-align: center;
+  margin-top: 60px;
+}
+
+a:link {
+  color: #f195ba;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ccc;
+}
+
+a:hover {
+  color: #fef8fc;
+}
+
+a:active {
+  color: #000;
