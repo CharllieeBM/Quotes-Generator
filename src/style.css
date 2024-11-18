@@ -57,7 +57,11 @@ input[type="submit"] {
   margin-left: 30px;
   margin-top: 0;
   line-height: 25px;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+.words strong {
+  color: #eb4f8d;
 }
 
 footer {
