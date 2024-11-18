@@ -5,9 +5,10 @@ body {
 }
 
 div.transbox {
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 600px;
   padding: 10px 10px;
-  background-color: #ffffff;
+  background-color: #fef8fc;
   border: none;
   border-radius: 5px;
   opacity: 0.6;
@@ -18,7 +19,7 @@ h1 {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  font-size: 60px;
-  line-height: 1.5;
+  font-size: 55px;
+  line-height: 1;
   color: black;
 }
