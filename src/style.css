@@ -53,6 +53,14 @@ input[type="submit"] {
   font-size: 15px;
 }
 
+.ins {
+  text-align: center;
+  font-size: 16px;
+  colour: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .words {
   margin-left: 30px;
   margin-top: 0;
@@ -106,5 +114,46 @@ a:active {
 @-webkit-keyframes blink-animation {
   to {
     visibility: hidden;
+  }
+}
+@media (max-width: 960px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .ins {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  div.transbox {
+    margin: 250px 10px;
+    padding: 30px 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  input[type="text"] {
+    width: 70%;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 8px;
+  }
+
+  input[type="submit"] {
+    width: 120px;
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+
+  .words {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }
